@@ -1,1 +1,130 @@
-dn42_peers: []
+dn42_peers:
+
+  - name: 'de-fra.dn42.kuu.moe'
+    contacts: 'https://dn42.kuu.moe'
+    wireguard:
+      endpoint_address: 'de-fra.dn42.kuu.moe'
+      endpoint_port: '41391'
+      public_key: 'FHp0OR4UpAS8/Ra0FUNffTk18soUYCa6NcvZdOgxY0k='
+    address:
+      ipv6: 'fe80::2189:e9'
+      ipv4: '172.23.91.125'
+    bgp:
+      asn: '4242422189'
+      session: 'mp'
+
+  - name: 'de01.dn42.lare.cc'
+    contacts: 'https://dn42.lare.cc/autopeer'
+    wireguard:
+      endpoint_address: 'de01.dn42.lare.cc'
+      endpoint_port: '21732'
+      public_key: 'OL2LE2feDsFV+fOC4vo4u/1enuxf3m2kydwGRE2rKVs='
+    address:
+      ipv6: 'fe80::3035:130'
+      ipv4: '172.22.125.130'
+    bgp:
+      asn: '4242423035'
+      session: 'mp'
+
+  - name: 'de1.420129.xyz'
+    contacts: 'https://dn42.m724.eu, dn42@m724.eu, https://t.me/minecon724'
+    wireguard:
+      endpoint_address: 'ipv4.de1.420129.xyz'
+      endpoint_port: '21732'
+      public_key: 'N9rGceoiFcc/obnHrqMAmVlrb/E2Br55+doekTKwNF8='
+    address:
+      ipv6: 'fe80::129:2'
+    bgp:
+      asn: '4242420129'
+      session: 'ipv6'
+
+  - name: 'de2.g-load.eu'
+    contacts: 'https://dn42.g-load.eu'
+    wireguard:
+      endpoint_address: 'de2.g-load.eu'
+      endpoint_port: '21732'
+      public_key: 'B1xSG/XTJRLd+GrWDsB06BqnIq8Xud93YVh/LYYYtUY='
+    address:
+      ipv6: 'fe80::ade0'
+      ipv4: '172.20.53.97'
+    bgp:
+      asn: '4242423914'
+      session: 'mp'
+
+  - name: 'dn14.de.surgebytes.com'
+    contacts: 'admin@cdubs.tech'
+    wireguard:
+      endpoint_address: 'dn14.de.surgebytes.com'
+      endpoint_port: '31732'
+      public_key: '5bPq2lxiqdLuNPFK3YPthCFp7QxV+R0HAOosfSR4PTE='
+    address:
+      ipv6: 'fe80::566:14'
+      ipv4: '172.21.99.14'
+    bgp:
+      asn: '4242420566'
+      session: 'mp'
+
+  - name: 'dn42-de-fra1.burble.com'
+    contacts: 'https://dn42.burble.com, dn42@burble.com'
+    wireguard:
+      endpoint_address: 'dn42-de-fra1.burble.com'
+      endpoint_port: '21732'
+      public_key: 'oimD0lbpD/dnTAuWaTAh/5Piot3HBHrVy0UXVpayAzU='
+    address:
+      ipv6: 'fe80::42:2601:31:1'
+      ipv4: '172.20.129.169'
+    bgp:
+      asn: '4242422601'
+      session: 'mp'
+
+  - name: 'dn42-de.maraun.de'
+    contacts: 'https://peering.maraun.de, dn42@maraun.de'
+    wireguard:
+      endpoint_address: 'dn42-de.maraun.de'
+      endpoint_port: '21732'
+      public_key: 'uS1AYe7zTGAP48XeNn0vppNjg7q0hawyh8Y0bvvAWhk='
+    address:
+      ipv6: 'fe80::2225'
+      ipv4: '172.20.12.196'
+    bgp:
+      asn: '4242422225'
+      session: 'mp'
+
+  - name: 'frog.catgirls.systems'
+    contacts: 'https://catgirls.systems'
+    wireguard:
+      endpoint_address: 'frog.catgirls.systems'
+      endpoint_port: '21732'
+      public_key: '23Hf9b2K4+2MzbU2+G2KBwNoUlaIMiEAcSOO0/9ZAjA='
+    address:
+      ipv6: 'fe80::1411:1'
+      ipv4: '172.23.196.33'
+    bgp:
+      asn: '4242421411'
+      session: 'mp'
+
+  - name: 'router.fra1.routedbits.com'
+    contacts: 'https://dn42.routedbits.com'
+    wireguard:
+      endpoint_address: 'router.fra1.routedbits.com'
+      endpoint_port: '51732'
+      public_key: 'FIk95vqIJxf2ZH750lsV1EybfeC9+V8Bnhn8YWPy/l8='
+    address:
+      ipv6: 'fe80::207'
+      ipv4: '172.20.19.71'
+    bgp:
+      asn: '4242420207'
+      session: 'mp'
+
+  - name: 'rt0.de.tatk.network'
+    contacts: 'https://tatk.network, noc@tatk.network'
+    wireguard:
+      endpoint_address: 'rt0.de.tatk.network'
+      endpoint_port: '21732'
+      public_key: 'So3HOmzdnLlXcrIrk7lpP+KmoCHPlXNvbXLg73gI5CQ='
+    address:
+      ipv6: 'fe80::3152:3'
+      ipv4: '172.22.129.67'
+    bgp:
+      asn: '4242423152'
+      session: 'mp'
