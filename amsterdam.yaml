@@ -76,15 +76,15 @@ dn42_peers:
       asn: '4242423914'
       session: 'mp'
 
-- name: 'test-peer'
-  contacts: 'test-peer'
-  wireguard:
-    endpoint_address: 'test-peer.eu'
-    endpoint_port: '21732'
-    public_key: '6Cylr9h1xFduAO+5nyXhFI1XJ0+Sw9jCpCDvcqErF1s='
-  address:
-    ipv6: 'fe80::ade0'
-    ipv4: '172.20.53.98'
-  bgp:
-    asn: '4242423114'
-    session: 'mp'
+  - name: 'test-peer'
+    contacts: 'test-peer'
+    wireguard:
+      endpoint_address: 'test-peer.eu'
+      endpoint_port: '21732'
+      public_key: '6Cylr9h1xFduAO+5nyXhFI1XJ0+Sw9jCpCDvcqErF1s='
+    address:
+      ipv6: 'fe80::ade0'
+      ipv4: '172.20.53.98'
+    bgp:
+      asn: '4242423114'
+      session: 'mp'
