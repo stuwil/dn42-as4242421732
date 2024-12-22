@@ -73,5 +73,5 @@ dn42_peers:
       ipv6: 'fe80::ade0'
       ipv4: '172.20.53.98'
     bgp:
-      asn: '4242423914 '
+      asn: '4242423914'
       session: 'mp'
