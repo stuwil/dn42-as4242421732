@@ -1,4 +1,3 @@
-
 # DN42 AS4242421732 - BGP Peers
 Welcome to the official repository for DN42 AS4242421732! This repository contains details about the BGP peering configuration for this Autonomous System within the DN42 network.
 
