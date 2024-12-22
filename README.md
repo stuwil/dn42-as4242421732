@@ -3,7 +3,11 @@ Welcome to the official repository for DN42 AS4242421732! This repository contai
 
 DN42 is a virtual private network (VPN) connecting enthusiasts and professionals globally. It is designed to be a testing and development environment for networking, BGP, and related technologies.
 ## How to Use
+
+*currently only AMS and FRA nodes are configured for peering via this repo, LON and ZUR will be configured later
+
 This section provides detailed instructions for setting up BGP peering with AS4242421732, viewing current peerings, and contributing updates to the repository.
+Nodes information including IPs, WireGuard info can be found [**here**](https://as215887.net/dn42)
 ### 1. Clone the Repository
 ```
 git clone https://github.com/baragoon/dn42-as4242421732.git
@@ -90,6 +94,6 @@ Then push your changes to GitHub (you must fork the repository first if you have
 git push origin main
 ```
 Once approved and merged, we automatically distribute your configuration to the routers in our network. Please allow some time for the process to complete.
-### 4. How to Remove a Peering
+### 5. How to Remove a Peering
 #### WIP...
 
