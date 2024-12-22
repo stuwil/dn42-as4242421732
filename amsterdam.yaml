@@ -1,1 +1,77 @@
-dn42_peers: []
+dn42_peers:
+
+  - name: 'ams.peer.highdef.network'
+    contacts: 'https://highdef.network'
+    wireguard:
+      endpoint_address: 'ams.peer.highdef.network'
+      endpoint_port: '21732'
+      public_key: 'EdWVXZMdujdL/jX5FZDjkPQPVaLoWt4C8FowNRbuaTU='
+    address:
+      ipv6: 'fe80::118'
+      ipv4: '172.20.229.118'
+    bgp:
+      asn: '4242421080'
+      session: 'mp'
+
+  - name: 'ams01.dn42.ventilaar.net'
+    contacts: 'me@ventilaar.nl'
+    wireguard:
+      endpoint_address: 'ams01.dn42.ventilaar.net'
+      endpoint_port: '31732'
+      public_key: 'QzI243AbnOzxjM6twSFnGb9gWCAVmLdEuJnPIxetQiM='
+    address:
+      ipv6: 'fe80::2246'
+    bgp:
+      asn: '4242422246'
+      session: 'ipv6'
+
+  - name: 'nl1.420129.xyz'
+    contacts: 'https://dn42.m724.eu, dn42@m724.eu, https://t.me/minecon724'
+    wireguard:
+      endpoint_address: 'nl1.420129.xyz'
+      endpoint_port: '21732'
+      public_key: 'iZfLBtF6BiQvdKXx4Yl02u+OL6ls35gSpWCRmB9q4lU='
+    address:
+      ipv6: 'fe80::129:1'
+    bgp:
+      asn: '4242420129'
+      session: 'ipv6'
+
+  - name: 'router.ams1.routedbits.com'
+    contacts: 'https://dn42.routedbits.com'
+    wireguard:
+      endpoint_address: 'router.ams1.routedbits.com'
+      endpoint_port: '51732'
+      public_key: 'JjAHDWR1CgQd1HJNvURrqUECkN++0bzYxlm57VXjlyc='
+    address:
+      ipv6: 'fe80::207'
+      ipv4: '172.20.19.64'
+    bgp:
+      asn: '4242420207'
+      session: 'mp'
+
+  - name: 'rt0.nl.tatk.network'
+    contacts: 'https://tatk.network'
+    wireguard:
+      endpoint_address: 'rt0.nl.tatk.network'
+      endpoint_port: '21732'
+      public_key: 'Q0F7kpVSjIOSzah/heFxLKUub72xNBS3+dpj2qSPnDU='
+    address:
+      ipv6: 'fe80::3152:2'
+      ipv4: '172.22.129.66'
+    bgp:
+      asn: '4242423152'
+      session: 'mp'
+
+  - name: 'us2.g-load.eu'
+    contacts: 'https://dn42.g-load.eu'
+    wireguard:
+      endpoint_address: 'us2.g-load.eu'
+      endpoint_port: '21732'
+      public_key: '6Cylr9h1xFduAO+5nyXhFI1XJ0+Sw9jCpCDvcqErF1s='
+    address:
+      ipv6: 'fe80::ade0'
+      ipv4: '172.20.53.98'
+    bgp:
+      asn: '4242423914 '
+      session: 'mp'
