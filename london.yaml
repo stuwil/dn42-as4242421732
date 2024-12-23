@@ -1,1 +1,92 @@
-dn42_peers: []
+dn42_peers:
+
+  - name: '9pfs-uk'
+    contacts: 'h@hackclub.app'
+    wireguard:
+      endpoint_address: '86.22.44.20'
+      endpoint_port: '21732'
+      public_key: 'sDvoqtg1OcmNCXuuES+wKHyrSqANDElI2iLQQnZByzo='
+    address:
+      ipv6: 'fe80::2002:3'
+      ipv4: '172.22.161.3'
+    bgp:
+      asn: '4242422002'
+      session: 'mp'
+
+  - name: 'dn42-uk-lon1.burble.com'
+    contacts: 'https://dn42.burble.com, dn42@burble.com'
+    wireguard:
+      endpoint_address: 'dn42-uk-lon1.burble.com'
+      endpoint_port: '21732'
+      public_key: 'XgmbjgKt6cGsGP3eN+S/lSYnlGbwHReMACs/MWV55Cg='
+    address:
+      ipv6: 'fe80::42:2601:35:1'
+      ipv4: '172.20.129.187'
+    bgp:
+      asn: '4242422601'
+      session: 'mp'
+
+  - name: 'lon.peer.highdef.network'
+    contacts: 'https://highdef.network'
+    wireguard:
+      endpoint_address: 'lon.peer.highdef.network'
+      endpoint_port: '21732'
+      public_key: 'pEQZQOD67QeWXqrHLrMoCXug/cOXJFMXH5vwQ1cW70s='
+    address:
+      ipv6: 'fe80::116'
+      ipv4: '172.20.229.116'
+    bgp:
+      asn: '4242421080'
+      session: 'mp'
+
+  - name: 'router.lon1.routedbits.com'
+    contacts: 'https://dn42.routedbits.com'
+    wireguard:
+      endpoint_address: 'router.lon1.routedbits.com'
+      endpoint_port: '51732'
+      public_key: 'vlqNoUSJ4T2sORBHusdwr9rCtQfdsIJvjV3Y/qBUcgY='
+    address:
+      ipv6: 'fe80::207'
+      ipv4: '172.20.19.74'
+    bgp:
+      asn: '4242420207'
+      session: 'mp'
+
+  - name: 'rt0.uk.tatk.network'
+    contacts: 'https://tatk.network, noc@tatk.network'
+    wireguard:
+      endpoint_address: 'rt0.uk.tatk.network'
+      endpoint_port: '21732'
+      public_key: 'jvng3/Q+uAlmk64ol9gDHImR1GvGVMvkOmYO7USMYX0='
+    address:
+      ipv6: 'fe80::3152:1'
+      ipv4: '172.22.129.65'
+    bgp:
+      asn: '4242423152'
+      session: 'mp'
+
+  - name: 'uk01.dn42.lare.cc'
+    contacts: 'https://dn42.lare.cc/autopeer'
+    wireguard:
+      endpoint_address: 'uk01.dn42.lare.cc'
+      endpoint_port: '21732'
+      public_key: 'RJaU1kRfiOREvKihiDMFpNrEGpN8td3z+UvHxabOlR0='
+    address:
+      ipv6: 'fe80::3035:138'
+      ipv4: '172.22.125.138'
+    bgp:
+      asn: '4242423035'
+      session: 'mp'
+
+  - name: 'uk1.g-load.eu'
+    contacts: 'https://dn42.g-load.eu'
+    wireguard:
+      endpoint_address: 'uk1.g-load.eu'
+      endpoint_port: '21732'
+      public_key: 'sLbzTRr2gfLFb24NPzDOpy8j09Y6zI+a7NkeVMdVSR8='
+    address:
+      ipv6: 'fe80::ade0'
+      ipv4: '172.20.53.104'
+    bgp:
+      asn: '4242423914 '
+      session: 'mp'
