@@ -77,3 +77,5 @@ dn42_peers:
       asn: '4242421855'
       session: 'ipv6'
 
+  - name: 'tst'
+  
