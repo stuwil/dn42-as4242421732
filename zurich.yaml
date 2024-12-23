@@ -64,3 +64,15 @@ dn42_peers:
     bgp:
       asn: '4242422575'
       session: 'mp'
+
+  - name: 'zurich.immibis.com'
+    contacts: 'https://immibis.com, dn42@immibis.com'
+    wireguard:
+      endpoint_address: '2a0e:dc0:6:3674::1'
+      endpoint_port: '41607'
+      public_key: 'EP0CauvqLAylrVk3shNfNAWVa6VU2zUHQ13iOkIkU2I='
+    address:
+      ipv6: 'fe80::1855'
+    bgp:
+      asn: '4242421855'
+      session: 'ipv6'
