@@ -2,9 +2,12 @@
 Welcome to the official repository for DN42 AS4242421732! This repository contains details about the BGP peering configuration for this Autonomous System within the DN42 network.
 
 DN42 is a virtual private network (VPN) connecting enthusiasts and professionals globally. It is designed to be a testing and development environment for networking, BGP, and related technologies.
-## How to Use
 
-**currently we are on the beta-test stage**
+|:warning: WARNING|
+|:-|
+|**currently we are on the beta-test stage**|
+
+## How to Use
 
 This section provides detailed instructions for setting up BGP peering with AS4242421732, viewing current peerings, and contributing updates to the repository.
 Nodes information including IPs, WireGuard info can be found [**here**](https://as215887.net/dn42)
