@@ -70,6 +70,7 @@ dn42_peers:
     wireguard:
       endpoint_address: '2a0e:dc0:6:3674::1'
       endpoint_port: '41607'
+      preshared_key: 'pISR5QSJ/fk24NnmoO+EFqtvOVePKqhSTFSOcJcilbE='
       public_key: 'EP0CauvqLAylrVk3shNfNAWVa6VU2zUHQ13iOkIkU2I='
     address:
       ipv6: 'fe80::1855'
