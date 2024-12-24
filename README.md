@@ -35,11 +35,11 @@ To add a new peering with AS4242421732, follow these steps:
 
 Add ```preshared_key``` to the WireGuard section:
 ```
-wireguard:
-  endpoint_address: '1.1.1.1'
-  endpoint_port: '15887'
-  preshared_key: 'oTpSP6Hr4/bGtnJJu/xrcqtiVA0c+Ql9yv7yGYGE1t0=
-  public_key: 'yZO+2Fo7uHikVC2VUPYwkk9IBzojUqrJlTU2fyfzfgI='
+    wireguard:
+      endpoint_address: '1.1.1.1'
+      endpoint_port: '15887'
+      preshared_key: 'oTpSP6Hr4/bGtnJJu/xrcqtiVA0c+Ql9yv7yGYGE1t0=
+      public_key: 'yZO+2Fo7uHikVC2VUPYwkk9IBzojUqrJlTU2fyfzfgI='
 ```
 
 #### Example BGP Configuration for Multi-prototol session:
