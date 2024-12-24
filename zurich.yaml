@@ -68,7 +68,7 @@ dn42_peers:
   - name: 'zurich.immibis.com'
     contacts: 'https://immibis.com, dn42@immibis.com'
     wireguard:
-      endpoint_address: '2a0e:dc0:6:3674::1'
+      endpoint_address: '188.244.117.69'
       endpoint_port: '41607'
       preshared_key: 'pISR5QSJ/fk24NnmoO+EFqtvOVePKqhSTFSOcJcilbE='
       public_key: 'EP0CauvqLAylrVk3shNfNAWVa6VU2zUHQ13iOkIkU2I='
