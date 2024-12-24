@@ -28,6 +28,20 @@ zurich.yaml
 ### 3. Add New Peer
 To add a new peering with AS4242421732, follow these steps:
 1. Edit the desired location file: Add your new peering information (name, IPv4, IPv6 (link-local or dn42 IPv6), AS number, session type, WireGuard data, email/other contact).
+
+|:warning: WARNING|
+|:-|
+|**If you're using WireGuard preshared key**|
+
+Add ```preshared_key``` to the WireGuard section:
+```
+wireguard:
+  endpoint_address: '1.1.1.1'
+  endpoint_port: '15887'
+  preshared_key: 'oTpSP6Hr4/bGtnJJu/xrcqtiVA0c+Ql9yv7yGYGE1t0=
+  public_key: 'yZO+2Fo7uHikVC2VUPYwkk9IBzojUqrJlTU2fyfzfgI='
+```
+
 #### Example BGP Configuration for Multi-prototol session:
 ```
   - name: 'fr1.g-load.eu'
