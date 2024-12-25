@@ -90,3 +90,17 @@ dn42_peers:
     bgp:
       asn: '4242423914'
       session: 'mp'
+
+# test
+  - name: 'test-peer'
+    contacts: 'bill@ms.com'
+    wireguard:
+      endpoint_address: '1.1.1.1'
+      endpoint_port: '1111'
+      public_key: 'sLbzTRr2gfLFb24NPzcOpy8j01Y6zI+a7NkemMdVSR8='
+    address:
+      ipv6: 'fe80::1111'
+      ipv4: '172.20.53.111'
+    bgp:
+      asn: '4242421111'
+      session: 'mp'
