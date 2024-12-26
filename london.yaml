@@ -93,6 +93,7 @@ dn42_peers:
 
 # test
   - name: 'test-peer'
+    disabled: 'yes'
     contacts: 'bill@ms.com'
     wireguard:
       endpoint_address: '1.1.1.1'
