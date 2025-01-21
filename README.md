@@ -3,10 +3,6 @@ Welcome to the official repository for DN42 AS4242421732! This repository contai
 
 DN42 is a virtual private network (VPN) connecting enthusiasts and professionals globally. It is designed to be a testing and development environment for networking, BGP, and related technologies.
 
-|:warning: WARNING|
-|:-|
-|**currently we are on the beta-test stage**|
-
 ## How to Use
 
 This section provides detailed instructions for setting up BGP peering with AS4242421732, viewing current peerings, and contributing updates to the repository.
