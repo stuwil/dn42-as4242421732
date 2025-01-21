@@ -91,17 +91,15 @@ dn42_peers:
       asn: '4242423914'
       session: 'mp'
 
-# test
-  - name: 'test-peer'
-    disabled: 'yes'
-    contacts: 'bill@ms.com'
+  - name: 'ibj.io'
+    contacts: 'dn42@ibj.io'
     wireguard:
-      endpoint_address: '1.1.1.1'
-      endpoint_port: '1111'
-      public_key: 'sLbzTRr2gfLFb24NPzcOpy8j01Y6zI+a7NkemMdVSR8='
+      endpoint_address: 'ire01.ke8jwh.com'
+      endpoint_port: '31732'
+      public_key: 'HwnW9T5AgETDfPi4EqExeBzi0j6EeKEV/M5Nb0iUQEU='
     address:
-      ipv6: 'fe80::1111'
-      ipv4: '172.20.53.111'
+      ipv6: 'fe80::157:237'
+      ipv4: '172.20.170.237'
     bgp:
-      asn: '4242421111'
+      asn: '4242420157'
       session: 'mp'
