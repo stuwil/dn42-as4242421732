@@ -128,3 +128,15 @@ dn42_peers:
     bgp:
       asn: '4242423152'
       session: 'mp'
+  
+  - name: 'duststars.dn42'
+    contacts: 'i@exploro.one'
+    wireguard:
+      endpoint_address: 'frank1-v4.exploro.one'
+      endpoint_port: '32584'
+      public_key: '+SESp7mO2U1EEXKgBlgWr7DLi6rejUb5ZMZBuBXtsDU='
+    address:
+      ipv6: 'fe80::afaf:bfbf:cdcf:4'
+    bgp:
+      asn: '4242421771'
+      session: 'ipv6'
