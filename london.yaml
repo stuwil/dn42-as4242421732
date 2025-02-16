@@ -39,6 +39,19 @@ dn42_peers:
       asn: '4242421080'
       session: 'mp'
 
+  - name: 'lon1.dn42.sidereal.ca'
+    contacts: 'dn42@sidereal.ca'
+    wireguard:
+      endpoint_address: 'lon1.dn42.sidereal.ca'
+      endpoint_port: '21732'
+      public_key: 'IsuXPz73qeUi+HfGlkkJnPxSqQKd5drx2dkjuHuuL1k='
+    address:
+      ipv6: 'fe80::2016:3'
+      ipv4: '172.23.199.67'
+    bgp:
+      asn: '4242422016'
+      session: 'mp'
+
   - name: 'router.lon1.routedbits.com'
     contacts: 'https://dn42.routedbits.com'
     wireguard:
